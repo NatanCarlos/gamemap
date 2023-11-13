@@ -1,13 +1,16 @@
-
+*{
+    overflow-x: hidden !important;
+    overflow-y: hidden !important;
+}
 
 #divMapa {
     position: absolute;
     top: 0;
-    width: 50%;
+    width: 500%;
 }
 
 #divMapa  img {
-    width: 100%;
+    width: 3000px;
 }
 
 #tabela_bancos {
@@ -28,4 +31,8 @@
     border: none;
     width: 800px;
     height: 600px;
+}
+
+#bonefrenteIvena, #ladoIvena {
+    height: 80px !important;
 }
