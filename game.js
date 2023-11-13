@@ -2,18 +2,16 @@ var Game_vue = new Vue({
     el: '#principal',
     data: {
 
-<<<<<<< HEAD
         posicaoLeftMapa: 0,
 
         boneco: {
             posX: 235, // Defina a posição x inicial aqui
             posY: 285, // Defina a posição y inicial aqui
             frente: true, // Define se está de frente ou de lado
-=======
+
         boneco: {
             posX: 100, // Defina a posição x inicial aqui
             posY: 100, // Defina a posição y inicial aqui
->>>>>>> 33e3c594a3c72662dcae5e2b4686111d92498ff1
         },
 
         listaPontos: [
@@ -71,7 +69,7 @@ var Game_vue = new Vue({
 
             }           
 
-<<<<<<< HEAD
+
         },
 
         moverMapa (direita = true, esquerda = false){
@@ -86,8 +84,7 @@ var Game_vue = new Vue({
                     Game_vue.listaPontos[i].posX += 5;                    
                 }
             }            
-=======
->>>>>>> 33e3c594a3c72662dcae5e2b4686111d92498ff1
+
         }
 
     }
@@ -96,26 +93,22 @@ var Game_vue = new Vue({
 
 $(document).keydown(function (e) {
 
-<<<<<<< HEAD
     e.preventDefault()
 
-=======
->>>>>>> 33e3c594a3c72662dcae5e2b4686111d92498ff1
     switch (e.keyCode) {
 
         case 38: // pra cima
             Game_vue.boneco.posY -= 5;
             Game_vue.verificar_puzzle();
-<<<<<<< HEAD
+
             Game_vue.boneco.frente = true;
-=======
->>>>>>> 33e3c594a3c72662dcae5e2b4686111d92498ff1
+
             break;
 
         case 40: // pra baixo
             Game_vue.boneco.posY += 5;
             Game_vue.verificar_puzzle();
-<<<<<<< HEAD
+
             Game_vue.boneco.frente = true;
             break;
 
