@@ -17,7 +17,7 @@ var Game_vue = new Vue({
                 jaAbriu: false,
                 'descricao': 'Ailos',
                 'link_img': '/ponto_mapa.png?raw=true',
-                'link_puzzle': 'https://getbootstrap.com/docs/5.2/components/modal/',
+                'link_puzzle': '"https://wordwall.net/pt/embed/0e93533288034039829563692fb9a9ba?themeId=56&templateId=72&fontStackId=0',
             },
             {
                 posX: 400, // Defina a posição x inicial aqui
@@ -25,8 +25,65 @@ var Game_vue = new Vue({
                 jaAbriu: false,
                 'descricao': 'Banco do Brasil',
                 'link_img': '/ponto_mapa.png?raw=true',
-                'link_puzzle': 'https://api.jquery.com/prepend/',
+                'link_puzzle': 'https://wordwall.net/pt/embed/32ad9abf3fea42eb94f15cf87c9f36f7?themeId=56&templateId=10&fontStackId=0',
             },
+
+            {
+                posX: 450, // Defina a posição x inicial aqui
+                posY: 380, // Defina a posição y inicial aqui
+                jaAbriu: false,
+                'descricao': 'Banco do Brasil',
+                'link_img': '/ponto_mapa.png?raw=true',
+                'link_puzzle': 'https://wordwall.net/pt/embed/5dc90c30c73047999855354654866563?themeId=56&templateId=5&fontStackId=0'
+            },
+
+
+            {
+                posX: 500, // Defina a posição x inicial aqui
+                posY: 380, // Defina a posição y inicial aqui
+                jaAbriu: false,
+                'descricao': 'Banco do Brasil',
+                'link_img': '/ponto_mapa.png?raw=true',
+                'link_puzzle': 'https://wordwall.net/pt/embed/a09a9dfe4a09461da6233b3a6ee91146?themeId=56&templateId=11&fontStackId=0' 
+            },
+
+            {
+                posX: 550, // Defina a posição x inicial aqui
+                posY: 380, // Defina a posição y inicial aqui
+                jaAbriu: false,
+                'descricao': 'Banco do Brasil',
+                'link_img': '/ponto_mapa.png?raw=true',
+                'link_puzzle': 'https://wordwall.net/pt/embed/b79d9f01b45c4710bf71b4f0e9cdec2d?themeId=56&templateId=72&fontStackId=0'
+            },
+
+            {
+                posX: 600, // Defina a posição x inicial aqui
+                posY: 380, // Defina a posição y inicial aqui
+                jaAbriu: false,
+                'descricao': 'Banco do Brasil',
+                'link_img': '/ponto_mapa.png?raw=true',
+                'link_puzzle': 'https://wordwall.net/pt/embed/90c90d04905d41aba7a4c0936faf9e57?themeId=56&templateId=36&fontStackId=0'
+            },
+
+            {
+                posX: 650, // Defina a posição x inicial aqui
+                posY: 380, // Defina a posição y inicial aqui
+                jaAbriu: false,
+                'descricao': 'Banco do Brasil',
+                'link_img': '/ponto_mapa.png?raw=true',
+                'link_puzzle': 'https://wordwall.net/pt/embed/e6192ddaede64b8799cf7369a26e7e87?themeId=56&templateId=10&fontStackId=0'
+            },
+
+            {
+                posX: 700, // Defina a posição x inicial aqui
+                posY: 380, // Defina a posição y inicial aqui
+                jaAbriu: false,
+                'descricao': 'Banco do Brasil',
+                'link_img': '/ponto_mapa.png?raw=true',
+                'link_puzzle': 'https://wordwall.net/pt/embed/a7c77f987b3f4a80b7866dc6e13cba1d?themeId=56&templateId=5&fontStackId=0'
+            },
+
+
         ],
     },
 
